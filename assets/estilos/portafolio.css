@@ -2,7 +2,7 @@
     height: 15%;
     width: 25%;
     display: auto;
-    border-radius: 100%;
+    border-radius: 23%;
     text-align: center;
 }
 
@@ -59,6 +59,7 @@ section {
 
 h1 {
     color: #333;
+    text-decoration: underline;
 }
 
 p {
@@ -94,6 +95,7 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 40%;
 }
 
 button:hover {
@@ -107,18 +109,19 @@ iframe {
 }
 
 .java{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
 }
 
 .mysql{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
 }
 
 .html{
-    width: 10%;
-    height: 10%;
+    width: 35%;
+    height: 35%;
+    
 }
 
 .mi{
@@ -138,7 +141,7 @@ iframe {
 }
 
 .descargas{
-    text-align: left;
+    text-align: CENTER;
     background-color: whitesmoke;
     color: #000000;
     margin: auto;
@@ -170,4 +173,62 @@ iframe {
     width: 50%;
     border: solid black;
     border-radius: 75px;
+    display: inline-block;
+}
+
+.contenido-imagenes_otro{
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    border-radius: 75px;
+}
+
+.imagen2{
+    padding: 0.25%;
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.contenido-Habilidades{
+    margin: auto;
+    text-align: center;
+    padding: 1.5%;
+    height: auto;
+    width: 50%;
+    border: solid black;
+    border-radius: 75px;
+    display: auto;
+
+}
+
+.formulario{
+    text-align: center;
+}
+
+.multimedia{
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(9,121,105,1) 24%, rgba(132,3,170,1) 48%, rgba(4,29,164,1) 69%);    padding: 1%;
+    color: #f4f4f4;
+    border-radius: 25;
+}
+
+.multimediaT{
+    color: #f4f4f4;
+}
+
+video{
+    border-radius: 10%;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    padding: 1%;
+    color: #f4f4f4;
+    font-size: 30px;
 }
